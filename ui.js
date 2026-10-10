@@ -49,10 +49,8 @@
     console.log(output)
     console.log(
         "Legend" + "\n" 
-        + "Right click for Flag (?)" + "\n" 
-        + "Left click to reveal (revealed .)" + "\n"
-        + "Mines (*)"+ "\n"
-        + "surrounding mines (int))" + "\n"
+        + "Reveal: r(\"B3\")  |  Flag/unflag: f(\"B3\")  |  New game: init(\"rows cols mines\")" + "\n"
+        + "X hidden | ? flagged | . empty | * mine | digit = surrounding mines" + "\n"
     )
 }
 

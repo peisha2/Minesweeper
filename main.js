@@ -6,7 +6,6 @@ function startGame(row,col,mineCount){
     window.board = new Board(row,col,mineCount)
     render(window.board)
     printBoard(window.board);
-    console.log("Type init(\"rows cols mines\") to start, e.g. init(\"9 9 10\")");
     startTimer(board);
 }
 
