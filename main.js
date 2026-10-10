@@ -43,7 +43,7 @@ document.getElementById("startbtn").onclick = function(){
     lastSettings ={r:20,c:24,m:99}    
     }
     document.getElementById("custombtn").onclick = function(){
-    const parts = document.getElementById("customIN").value.split(" ");
+    const parts = document.getElementById("customIn").value.split(" ");
     startGame(parseInt(parts[0]),parseInt(parts[1]),parseInt(parts[2]));
     lastSettings ={r:parseInt(parts[0]),c:parseInt(parts[1]),m:parseInt(parts[2])}
     }

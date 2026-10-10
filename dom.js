@@ -51,7 +51,7 @@ let timerInterval;
 export function startTimer(board){
     clearInterval(timerInterval);
     document.getElementById("timer").textContent = "0.0s";
-    timerInterval = setInterval(function(){updateTimerD(board)})
+    timerInterval = setInterval(function(){updateTimerD(board), 100})
 }
 
 function updateTimerD(board){
